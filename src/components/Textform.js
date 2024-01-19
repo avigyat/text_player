@@ -72,7 +72,10 @@ export default function Textform(props) {
     }
 
     const previewStyle={
-        border: "1px solid black"
+        border: "1px solid black",
+        rows:5,
+        height:150
+
     }
 
   return (
@@ -99,7 +102,7 @@ export default function Textform(props) {
             <div>{text.split(" ").length} words and {text.length} characters</div>
             <div>Avg time to read-{text.split(" ").length*0.008} minutes</div>
             <h3>Preview</h3>
-            <p style={previewStyle}  className="form-control" rows="5">{text}</p>
+            <p style={previewStyle}  className="form-control" rows="10">{text}</p>
             
         </div>
         
