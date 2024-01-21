@@ -5,7 +5,7 @@ import './App.module.css';
 import Alert from './components/Alert';
 import Navbar from './components/Navbar';
 import Textform from './components/Textform';
-import Aviinfo from './components/Aviinfo';
+//import Aviinfo from './components/Aviinfo';
 // import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App() {
